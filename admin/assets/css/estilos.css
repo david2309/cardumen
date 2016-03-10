@@ -1,0 +1,25 @@
+
+
+/*=================== LOGIN ===================*/
+.login_body{
+	background: #f1f1f1;
+}
+	.login{
+		margin: 20vh auto;
+		width: 320px;
+	}
+		.login form{
+			background-color: #fff;
+			width: 320px;
+		    padding: 1.5em;
+		    height: 254px;
+		    border-radius: 4px;
+		    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+	    	box-shadow: 0 1px 3px rgba(0,0,0,.13);
+		}
+		.login label{
+			color: #777;
+		}
+		.login button{
+			float: right;
+		}

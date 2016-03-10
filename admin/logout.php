@@ -1,0 +1,10 @@
+<?php
+	SetCookie(acceso,"");
+	SetCookie(tipo,"");
+	SetCookie(usuariologin,"");
+	SetCookie(nom_usu,"");
+	SESSION_START();
+	SESSION_unset();
+	SESSION_destroy();
+	header("Location:index.php");
+?>
